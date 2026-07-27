@@ -1,9 +1,34 @@
 aid: forterra
 name: Forterra
-description: 'Forterra is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: transportation. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: >-
+  Forterra is a defense autonomy company headquartered in Clarksburg, Maryland,
+  that builds combat-proven autonomous mission systems for ground operations in
+  contested, GPS-denied, off-road environments. Founded in 2002 as Robotic
+  Research and rebranded as Forterra, it retrofits existing military and
+  commercial vehicles with self-driving capability through its AutoDrive
+  autonomous driving system, the TerraLink modular vehicle-management and
+  command-and-control platform, and the OASIS open architecture that lets the
+  government and third-party developers add sensors, effectors, and payloads
+  without vendor lock-in. Additional offerings span resilient communications,
+  sensing, and ruggedized edge-compute hardware. The company is backed by
+  SoftBank Vision Fund 2 and Enlightenment Capital and supplies autonomy to
+  multiple active U.S. Department of Defense programs. Forterra does not publish
+  a public developer API, SDKs, or self-service developer portal; its systems
+  are delivered as government and defense-integration programs.
 url: https://raw.githubusercontent.com/api-evangelist/forterra/refs/heads/main/apis.yml
+website: https://www.forterra.com
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6a2e49a3a109c22251c539d3/6a3ed519bbab66289245e708_open-graph.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +37,49 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Transportation
+- Autonomous Vehicles
+- Defense
+- Robotics
+- Autonomy
+- Edge Computing
+- National Security
 apis: []
+common:
+- type: DomainSecurity
+  url: security/forterra-domain-security.yml
+- type: Website
+  url: https://www.forterra.com
+- type: About
+  url: https://www.forterra.com/about
+- type: Products
+  url: https://www.forterra.com/platforms
+- type: Blog
+  url: https://www.forterra.com/news
+- type: Careers
+  url: https://www.forterra.com/careers
+- type: Support
+  url: https://www.forterra.com/contact
+- type: TermsOfService
+  url: https://www.forterra.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.forterra.com/legal/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/forterra-autonomy/
+- type: Twitter
+  url: https://x.com/ForterraDrive
+- type: YouTube
+  url: https://www.youtube.com/channel/UCyZV0C2_hSBInPsiIX46O0Q
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
