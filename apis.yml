@@ -17,6 +17,17 @@ description: >-
   are delivered as government and defense-integration programs.
 url: https://raw.githubusercontent.com/api-evangelist/forterra/refs/heads/main/apis.yml
 website: https://www.forterra.com
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
